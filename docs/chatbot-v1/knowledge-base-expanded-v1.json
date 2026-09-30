@@ -1,0 +1,166 @@
+# Updated Knowledge Base V1 (Expanded)
+
+Ujeedpo: Kala saar full knowledge base JSON oo ay ku jiraan FAQ, intents, responses, iyo contact info.
+
+```json
+{
+  "version": "v1",
+  "last_updated": "2026-08-17",
+  "language": "so",
+  "priority_rule": "Haddii docs iyo live form ay is-khilaafaan, mudnaanta sii live form.",
+  "admission_links": {
+    "home": "https://student.snu.edu.so/admission/home",
+    "apply": "https://student.snu.edu.so/admission/online-application",
+    "track": "https://student.snu.edu.so/admission/track-application",
+    "result": "https://student.snu.edu.so/admission/result"
+  },
+  "contact_info": {
+    "phone": ["+252 866002", "+252 866003", "+252 866004"],
+    "email": "Jus@snu.edu.so",
+    "hours": "Mon-Fri: 8:00 AM - 5:00 PM",
+    "address": "Jidka Columbia, Xamar Weyne, Sanduuqa Boostada 15 Muqdisho, Soomaaliya"
+  },
+  "sections": [
+    "Macluumaadka Ardayga",
+    "Xogta Waxbarasho",
+    "Xarunta ama Goobta Imtixaanka",
+    "Doorashada Kuliyada",
+    "Macluumaadka Masuulka",
+    "Bixinta Lacagta Codsiga",
+    "Dukumentiyada Loo Baahan Yahay",
+    "Dib u eeg iyo Gudbi"
+  ],
+  "required_documents": [
+    {
+      "name": "Sawir arday",
+      "types": ["PNG", "JPG", "JPEG", "GIF"],
+      "max_size_mb": 5
+    },
+    {
+      "name": "Aqoonsi (NIRA ama Passport ama Dhalasho)",
+      "types": ["PDF", "DOC", "DOCX", "JPG", "PNG"],
+      "max_size_mb": 10
+    },
+    {
+      "name": "Shahaado dugsi sare ama kaarka imtixaanka",
+      "types": ["PDF", "DOC", "DOCX", "JPG", "PNG"],
+      "max_size_mb": 10
+    },
+    {
+      "name": "Warqadda bangiga ee lacag bixinta",
+      "types": ["PDF", "JPG", "PNG"],
+      "max_size_mb": 10
+    }
+  ],
+  "banks": [
+    "Premier Bank",
+    "Salaam Bank",
+    "Dahabshiil Bank",
+    "IBS Bank",
+    "Amal Bank",
+    "Other Bank"
+  ],
+  "faculties": [
+    "Faculty of Veterinary Medicine and Animal Husbandry",
+    "Faculty of Sharia and Islamic Studies",
+    "Faculty of Law",
+    "Faculty of Agriculture and Environmental Science",
+    "Faculty of Engineering",
+    "Faculty of Medicine and Surgery",
+    "Faculty of Health Sciences and Tropical Medicine",
+    "Faculty of Science",
+    "Faculty of Economic and Management",
+    "Faculty of Social Science",
+    "Faculty of Education",
+    "Faculty of Languages"
+  ],
+  "campuses": [
+    "Shabelle",
+    "Gahayr",
+    "Km4",
+    "Abudwaq",
+    "Badhan"
+  ],
+  "exam_locations": [
+    "Gahayr",
+    "Km4",
+    "Abudwaq",
+    "Badhan",
+    "Baydhabo",
+    "Garowe",
+    "Baladwayne",
+    "Other"
+  ],
+  "faq": [
+    {
+      "id": "q1",
+      "q": "Sideen isku diiwaan gelin karaa?",
+      "a": "Waxaad ka bilaabi kartaa bogga codsiga rasmiga ah: https://student.snu.edu.so/admission/online-application",
+      "category": "application_process"
+    },
+    {
+      "id": "q2",
+      "q": "Maxaa dokumenti ah oo la rabaa?",
+      "a": "Waxaa la rabaa sawir, aqoonsi, shahaado dugsiga sare ama exam card, iyo rasiidka bangiga.",
+      "category": "documents"
+    },
+    {
+      "id": "q3",
+      "q": "Lacagta codsiga goorma ayaan bixiyaa?",
+      "a": "Lacagta codsiga waa in la dhammeeyaa ka hor gudbinta codsiga.",
+      "category": "payment"
+    },
+    {
+      "id": "q4",
+      "q": "Kuliyado maxay yihiin?",
+      "a": "Kuliyado ay ka mid yihiin Engineering, Medicine, Law, Education, Science, Agriculture, iyo kale.",
+      "category": "faculties"
+    },
+    {
+      "id": "q5",
+      "q": "Xaruna iyo goobta imtixaanka waa maxay?",
+      "a": "Xarumaha waxbarashada ay ka mid yihiin Shabelle, Gahayr, Km4, Abudwaq, ama Badhan. Goobta imtixaanka waxaad dooran kartaa magaalada ama magalooyinka kala duwan.",
+      "category": "campus_location"
+    },
+    {
+      "id": "q6",
+      "q": "Sidee ay iska xiraan?",
+      "a": "Xiriiriyeyaal: +252 866002/003/004 ama Jus@snu.edu.so",
+      "category": "contact"
+    }
+  ],
+  "intents": [
+    {
+      "id": "intent_1",
+      "name": "salaam",
+      "triggers": ["as-salaam alaikum", "ku soo dhawoow", "hello", "hi"],
+      "response_template": "greeting_welcome"
+    },
+    {
+      "id": "intent_2",
+      "name": "codsi_isdiiwaan_gelin",
+      "triggers": ["waan isdiiwaan gelinayaa", "waxaan raba inaan codsi buuxiyo", "i want to apply"],
+      "response_template": "redirect_to_live_form"
+    },
+    {
+      "id": "intent_3",
+      "name": "shuruudo_gelitaan",
+      "triggers": ["maxaa shuruudaha", "requirements"],
+      "response_template": "faq_requirements"
+    },
+    {
+      "id": "intent_4",
+      "name": "dukumentiyo_loo_baahan_yahay",
+      "triggers": ["maxaa dokumenti", "what files"],
+      "response_template": "faq_documents"
+    },
+    {
+      "id": "intent_5",
+      "name": "lacag_bixin_codsi",
+      "triggers": ["lacagta codsiga", "payment"],
+      "response_template": "faq_payment"
+    }
+  ]
+}
+```
+

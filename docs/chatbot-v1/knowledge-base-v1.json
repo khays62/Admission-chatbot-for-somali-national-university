@@ -1,0 +1,54 @@
+{
+  "version": "v1",
+  "priority_rule": "Haddii docs iyo live form ay is-khilaafaan, mudnaanta sii live form.",
+  "admission_links": {
+    "home": "https://student.snu.edu.so/admission/home",
+    "apply": "https://student.snu.edu.so/admission/online-application",
+    "track": "https://student.snu.edu.so/admission/track-application",
+    "result": "https://student.snu.edu.so/admission/result"
+  },
+  "sections": [
+    "Macluumaadka Ardayga",
+    "Xogta Waxbarasho",
+    "Xarunta ama Goobta Imtixaanka",
+    "Doorashada Kuliyada",
+    "Macluumaadka Masuulka",
+    "Bixinta Lacagta Codsiga",
+    "Dukumentiyada Loo Baahan Yahay",
+    "Dib u eeg iyo Gudbi"
+  ],
+  "required_documents": [
+    "Sawir arday",
+    "Aqoonsi (NIRA ama Passport ama Dhalasho)",
+    "Shahaado dugsi sare ama kaarka imtixaanka",
+    "Warqadda bangiga ee lacag bixinta"
+  ],
+  "file_rules": {
+    "student_photo": {
+      "types": ["PNG", "JPG", "JPEG", "GIF"],
+      "max_size_mb": 5
+    },
+    "payment_receipt": {
+      "types": ["PDF", "JPG", "PNG"],
+      "max_size_mb": 10
+    },
+    "required_docs": {
+      "types": ["PDF", "DOC", "DOCX", "JPG", "PNG"],
+      "max_size_mb": 10
+    }
+  },
+  "faq_seed": [
+    {
+      "q": "Sideen isku diiwaan gelin karaa?",
+      "a": "Waxaad ka bilaabi kartaa bogga codsiga rasmiga ah ee jaamacadda."
+    },
+    {
+      "q": "Maxaa dokumenti ah oo la rabaa?",
+      "a": "Waxaa la rabaa sawir, aqoonsi, shahaado dugsi sare ama exam card, iyo rasiidka bangiga."
+    },
+    {
+      "q": "Lacagta codsiga goorma ayaan bixiyaa?",
+      "a": "Lacagta codsiga waa in la dhammeeyaa ka hor gudbinta codsiga."
+    }
+  ]
+}
