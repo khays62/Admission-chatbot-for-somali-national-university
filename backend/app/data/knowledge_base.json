@@ -1,0 +1,47 @@
+{
+  "version": "v1",
+  "language": "so",
+  "priority_rule": "If docs and live form conflict, live form wins.",
+  "admission_links": {
+    "home": "https://student.snu.edu.so/admission/home",
+    "apply": "https://student.snu.edu.so/admission/online-application",
+    "track": "https://student.snu.edu.so/admission/track-application",
+    "result": "https://student.snu.edu.so/admission/result"
+  },
+  "contact_info": {
+    "phone": ["+252 866002", "+252 866003", "+252 866004"],
+    "email": "Jus@snu.edu.so",
+    "hours": "Mon-Fri: 8:00 AM - 5:00 PM",
+    "address": "Jidka Columbia, Xamar Weyne, Sanduuqa Boostada 15 Muqdisho, Soomaaliya"
+  },
+  "faq": [
+    {
+      "q": "sideen isku diiwaan gelin karaa",
+      "a": "Waxaad bilawga ka sameyn kartaa bogga codsiga rasmiga ah: https://student.snu.edu.so/admission/online-application"
+    },
+    {
+      "q": "maxaa dokumenti ah oo la rabaa",
+      "a": "Waxaa la rabaa sawir arday, aqoonsi, shahaado dugsi sare ama exam card, iyo rasiidka bangiga."
+    },
+    {
+      "q": "lacagta codsiga goorma ayaan bixiyaa",
+      "a": "Lacagta codsiga waa in la dhammeeyaa ka hor intaad codsiga gudbiso."
+    },
+    {
+      "q": "maxay yihiin kuliyadaha",
+      "a": "Kuliyadaha jira waxaa ka mid ah Engineering, Medicine and Surgery, Law, Education, Science, Agriculture, iyo kuwo kale."
+    },
+    {
+      "q": "xarunta iyo goobta imtixaanka waa maxay",
+      "a": "Xarumaha waxbarashada waxaa ka mid ah Shabelle, Gahayr, Km4, Abudwaq, Badhan. Goobta imtixaanka waxay noqon kartaa Gahayr, Km4, Abudwaq, Badhan, Baydhabo, Garowe, Baladwayne, ama Other."
+    },
+    {
+      "q": "sidee ay iska xiraan",
+      "a": "Xiriiriyeyaal: +252 866002 / 866003 / 866004, ama Jus@snu.edu.so"
+    },
+    {
+      "q": "waxaan rabaa inaan iska diiwaan geliyo",
+      "a": "Halkan waa link-ga rasmiga ah ee codsiga: https://student.snu.edu.so/admission/online-application"
+    }
+  ]
+}
